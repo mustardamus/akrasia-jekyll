@@ -1,0 +1,39 @@
+---
+---
+
+.navigation {
+  .back {
+    margin-top: 40px;
+  }
+
+  ul {
+    margin-top: 30px;
+
+    li a {
+      display: block;
+    }
+  }
+}
+
+.content {
+  margin-left: 200px;
+
+  .city h1 small {
+    color: #aaa;
+    font-weight: normal;
+  }
+
+  .pictures {
+    .col {
+      padding-bottom: 2px;
+    }
+
+    a img {
+      border: 3px solid #aaa;
+    }
+
+    a:hover img {
+      border: 3px solid #0074d9;
+    }
+  }
+}

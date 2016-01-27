@@ -10,41 +10,7 @@ permalink: pictures
 
     <link rel="stylesheet" href="/assets/vendor/css/basscss.min.css" media="screen">
     <link rel="stylesheet" href="/assets/vendor/css/jquery.fancybox.css" media="screen">
-
-    <style media="screen">
-      .navigation .back {
-        margin-top: 40px;
-      }
-
-      .navigation ul {
-        margin-top: 30px;
-      }
-
-      .navigation ul li a {
-        display: block;
-      }
-
-      .content {
-        margin-left: 200px;
-      }
-
-      .city h1 small {
-        color: #aaa;
-        font-weight: normal;
-      }
-
-      .pictures .col {
-        padding-bottom: 2px;
-      }
-
-      .pictures a img {
-        border: 3px solid #aaa;
-      }
-
-      .pictures a:hover img {
-        border: 3px solid #0074d9;
-      }
-    </style>
+    <link rel="stylesheet" href="/assets/css/pictures.css" media="screen">
   </head>
 
   <body>
@@ -87,15 +53,6 @@ permalink: pictures
 
     <script type="text/javascript" src="/assets/vendor/js/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="/assets/vendor/js/jquery.fancybox.pack.js"></script>
-
-    <script type="text/javascript">
-      $(function() {
-        $('.pictures a').fancybox({
-          padding : 0,
-          closeBtn: false,
-          helpers : { overlay: { locked: false }}
-        });
-      });
-    </script>
+    <script type="text/javascript" src="/assets/js/pictures.js"></script>
   </body>
 </html>
