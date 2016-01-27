@@ -10,28 +10,79 @@ permalink: pictures
 
     <link rel="stylesheet" href="/assets/vendor/css/basscss.min.css" media="screen">
     <link rel="stylesheet" href="/assets/vendor/css/jquery.fancybox.css" media="screen">
+
+    <style media="screen">
+      .navigation .back {
+        margin-top: 40px;
+      }
+
+      .navigation ul {
+        margin-top: 30px;
+      }
+
+      .navigation ul li a {
+        display: block;
+      }
+
+      .content {
+        margin-left: 200px;
+      }
+
+      .city h1 small {
+        color: #aaa;
+        font-weight: normal;
+      }
+
+      .pictures .col {
+        padding-bottom: 2px;
+      }
+
+      .pictures a img {
+        border: 3px solid #aaa;
+      }
+
+      .pictures a:hover img {
+        border: 3px solid #0074d9;
+      }
+    </style>
   </head>
 
   <body>
     <div class="container">
-      {% for set in site.data.pictures %}
-        <div class="city">
-          <h1>
-            {{ set.city }}
-            <small>/ {{ set.country }}</small>
-          </h1>
+      <div class="col col-2 fixed navigation">
+        <a href="/" class="btn btn-primary back">Back</a>
 
-          <div class="pictures clearfix">
-            {% for filename in set.pictures %}
-              <div class="col col-4">
-                <a href="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename }}" rel="pictures">
-                  <img src="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename | thumb_name }}" />
-                </a>
-              </div>
-            {% endfor %}
+        <ul class="list-reset">
+          {% for set in site.data.pictures %}
+            <li>
+              <a href="#{{ set.city }}">
+                {{ set.city }}
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col col-10 content">
+        {% for set in site.data.pictures %}
+          <div class="city" id="{{ set.city }}">
+            <h1>
+              {{ set.city }}
+              <small>/ {{ set.country }}</small>
+            </h1>
+
+            <div class="pictures clearfix">
+              {% for filename in set.pictures %}
+                <div class="col col-3">
+                  <a href="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename }}" rel="pictures">
+                    <img src="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename | thumb_name }}" />
+                  </a>
+                </div>
+              {% endfor %}
+            </div>
           </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
 
     <script type="text/javascript" src="/assets/vendor/js/jquery-2.2.0.min.js"></script>

@@ -6,7 +6,7 @@ root_dir      = "#{__dir__}/.."
 in_dir        = "#{root_dir}/pictures"
 out_dir       = "#{root_dir}/assets/pictures"
 data_yml_path = "#{root_dir}/_data/pictures.json"
-thumb_width   = 300
+thumb_width   = 200
 pic_width     = 1000
 out_arr       = []
 
