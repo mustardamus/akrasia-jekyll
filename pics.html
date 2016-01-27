@@ -9,6 +9,7 @@ permalink: pictures
     <title>Akrasia - Pictures</title>
 
     <link rel="stylesheet" href="/assets/vendor/css/basscss.min.css" media="screen">
+    <link rel="stylesheet" href="/assets/vendor/css/jquery.fancybox.css" media="screen">
   </head>
 
   <body>
@@ -23,7 +24,7 @@ permalink: pictures
           <div class="pictures clearfix">
             {% for filename in set.pictures %}
               <div class="col col-4">
-                <a href="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename }}">
+                <a href="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename }}" rel="pictures">
                   <img src="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename | thumb_name }}" />
                 </a>
               </div>
@@ -32,5 +33,18 @@ permalink: pictures
         </div>
       {% endfor %}
     </div>
+
+    <script type="text/javascript" src="/assets/vendor/js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/assets/vendor/js/jquery.fancybox.pack.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        $('.pictures a').fancybox({
+          padding : 0,
+          closeBtn: false,
+          helpers : { overlay: { locked: false }}
+        });
+      });
+    </script>
   </body>
 </html>
