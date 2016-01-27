@@ -1,0 +1,36 @@
+---
+permalink: pictures
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Akrasia - Pictures</title>
+
+    <link rel="stylesheet" href="/assets/vendor/css/basscss.min.css" media="screen">
+  </head>
+
+  <body>
+    <div class="container">
+      {% for set in site.data.pictures %}
+        <div class="city">
+          <h1>
+            {{ set.city }}
+            <small>/ {{ set.country }}</small>
+          </h1>
+
+          <div class="pictures clearfix">
+            {% for filename in set.pictures %}
+              <div class="col col-4">
+                <a href="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename }}">
+                  <img src="/assets/pictures/{{ set.country }}/{{ set.city }}/{{ filename | thumb_name }}" />
+                </a>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </body>
+</html>

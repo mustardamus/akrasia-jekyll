@@ -1,0 +1,10 @@
+incremental: true
+exclude    : [pictures, tasks, README.md]
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: posts
+    values:
+      layout: post
