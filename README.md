@@ -35,3 +35,4 @@ generate these names:
 ## Credits
 
 - Background Pattern: http://subtlepatterns.com/use-your-illusion/
+- Icons: http://simpleicons.org/

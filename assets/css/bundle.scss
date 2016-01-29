@@ -12,6 +12,11 @@ p {
   font-family: 'Ovo', serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans', sans-serif;
+  color: #101010;
+}
+
 #header {
   padding-top: 50px;
 }
@@ -28,10 +33,6 @@ p {
     border-radius: 2px;
     padding: 15px;
 
-    h1 {
-      font-family: 'Open Sans', sans-serif;
-    }
-
     p {
       font-size: 1.16em;
     }
@@ -39,7 +40,7 @@ p {
 }
 
 #sidebar {
-  color: #EFEFEF;
+
 }
 
 #shortbio {
@@ -48,8 +49,28 @@ p {
     border-top: 10px solid rgba(0, 0, 0, 0.1);
     border-bottom: 10px solid rgba(0, 0, 0, 0.1);
     padding: 10px;
-    margin: 0 10px;
+    margin: 20px;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+    color: #ddd;
+  }
+}
+
+#elsewhere {
+  padding: 10px 30px;
+
+  a {
+    svg {
+      width: 26px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 100%;
+      padding: 10px;
+      margin-top: 2px;
+    }
+
+    &:hover svg {
+      border: 3px solid #D21522;
+      margin-top: 0;
+    }
   }
 }
 
