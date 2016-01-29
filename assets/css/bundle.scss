@@ -1,0 +1,57 @@
+---
+---
+
+@import url(https://fonts.googleapis.com/css?family=Ovo);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+
+body {
+  background: url('../images/use_your_illusion.png') repeat top left #202020;
+}
+
+p {
+  font-family: 'Ovo', serif;
+}
+
+#header {
+  padding-top: 50px;
+}
+
+#content {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 30px rgba(0, 0, 0, 1);
+  border-radius: 2px;
+  padding: 10px;
+
+  .inner {
+    color: #202020;
+    background: white;
+    border-radius: 2px;
+    padding: 15px;
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    p {
+      font-size: 1.16em;
+    }
+  }
+}
+
+#sidebar {
+  color: #EFEFEF;
+}
+
+#shortbio {
+  p {
+    font-size: 0.9em;
+    border-top: 10px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 0 10px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+  }
+}
+
+@import 'homepage';
+@import 'pictures';

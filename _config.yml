@@ -1,6 +1,9 @@
 incremental: true
 exclude    : [pictures, tasks, README.md]
 
+sass:
+  sass_dir: assets/css
+
 defaults:
   -
     scope:

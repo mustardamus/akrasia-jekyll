@@ -31,3 +31,7 @@ like `picture_thumb.jpg`. You can use the Liquid filter `thumb_name` to
 generate these names:
 
     {{ picture.jpg | thumb_name }}  ->  picture_thumb.jpg
+
+## Credits
+
+- Background Pattern: http://subtlepatterns.com/use-your-illusion/
