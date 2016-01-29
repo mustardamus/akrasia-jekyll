@@ -29,7 +29,8 @@
   }
 }
 
-#content .quote {
+.quote {
+  padding-bottom: 5px;
   margin-bottom: 50px;
   border-bottom: 5px solid rgba(0, 0, 0, 0.1);
 
@@ -44,5 +45,54 @@
   div {
     font-family: $sans;
     color: $dark2;
+  }
+}
+
+.recent-posts {
+  margin-right: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+
+  li {
+    line-height: 22px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+    &:last-child {
+      margin: 0;
+      padding: 0;
+      border: none;
+    }
+
+    a {
+      display: block;
+      padding: 0 10px;
+      font-family: $sans;
+
+      .title {
+        font-size: 1.2em;
+        color: $color2;
+      }
+
+      .date {
+        display: block;
+        color: #aaa;
+        font-size: 0.8em;
+        text-transform: uppercase;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        .title {
+          border-bottom: 2px solid $color2;
+        }
+
+        .date {
+          color: #666;
+        }
+      }
+    }
   }
 }

@@ -7,6 +7,7 @@
 $dark1: #101010;
 $dark2: #202020;
 $color1: #D21522;
+$color2: #B00449;
 $serif: 'Ovo', serif;
 $sans: 'Montserrat', sans-serif;
 
@@ -79,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 1;
   top: 8px;
+  margin-bottom: 50px;
 
   .inner {
     background: white;

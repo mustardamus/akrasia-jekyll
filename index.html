@@ -76,18 +76,22 @@
               </div>
 
               <div class="col col-8">
-                <ul>
-                  {% for post in site.posts %}
+                <ul class="list-reset recent-posts">
+                  {% for post in site.posts limit: 5 %}
                     <li>
-                      <a href="{{ post.url }}">{{ post.title }}</a>
-                      {{ post.excerpt }}
+                      <a href="{{ post.url }}">
+                        <span class="title">{{ post.title }}</span>
+                        <span class="date">
+                          {{ post.date | date_to_long_string }}
+                        </span>
+                      </a>
                     </li>
                   {% endfor %}
                 </ul>
               </div>
 
               <div class="col col-4">
-                <img src="./assets/pictures/Austria/Vienna/100_1739_thumb.JPG" width="100" />
+                <img src="./assets/pictures/Austria/Vienna/100_1739_thumb.JPG" />
               </div>
             </div>
           </div>
