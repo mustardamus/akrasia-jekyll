@@ -4,21 +4,64 @@
 @import url(https://fonts.googleapis.com/css?family=Ovo);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
 
+$dark1: #101010;
+$dark2: #202020;
+$color1: #D21522;
+
 body {
-  background: url('../images/use_your_illusion.png') repeat top left #202020;
+  background: url('../images/use_your_illusion.png') repeat top left $dark2;
 }
 
 p {
   font-family: 'Ovo', serif;
+  color: $dark2;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif;
-  color: #101010;
+  color: $dark1;
 }
 
 #header {
-  padding-top: 50px;
+  padding-top: 70px;
+
+  .navigation {
+    position: relative;
+    z-index: 2;
+
+    li {
+      float: left;
+      margin: 0 10px;
+
+      a {
+        color: $color1;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.2em;
+        padding: 10px 20px;
+        border-bottom: 10px solid rgba(255, 255, 255, 0.1);
+        background: rgba(0, 0, 0, 0.1);
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+
+        &:hover {
+          border-bottom: 10px solid $color1;
+          text-decoration: none;
+        }
+      }
+
+      &.active {
+        a {
+          background: $color1;
+          border-radius: 2px;
+          color: $dark2;
+          text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
+
+          &:hover {
+            border-bottom: 10px solid rgba(255, 255, 255, 0.1);
+          }
+        }
+      }
+    }
+  }
 }
 
 #content {
@@ -26,11 +69,12 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0 0 30px rgba(0, 0, 0, 1);
   border-radius: 2px;
   padding: 10px;
+  position: relative;
+  z-index: 1;
+  top: 9px;
 
   .inner {
-    color: #202020;
     background: white;
-    border-radius: 2px;
     padding: 15px;
 
     p {
@@ -68,11 +112,11 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     &:hover svg {
-      border: 3px solid #D21522;
+      border: 3px solid $color1;
       margin-top: 0;
     }
   }
 }
 
-@import 'homepage';
-@import 'pictures';
+//@import 'homepage';
+//@import 'pictures';
