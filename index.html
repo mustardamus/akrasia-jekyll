@@ -29,7 +29,7 @@
 
       <div class="col col-4" id="sidebar">
         <div class="center" id="shortbio">
-          <a href="/">
+          <a href="/about">
             <img src="/assets/images/gusche.png" />
           </a>
 
@@ -61,20 +61,36 @@
 
       <div class="col col-8" id="content">
         <div class="inner">
-          <h1>Ow yeah ab gehts</h1>
+          <div class="container">
+            <div class="clearfix">
 
-          <p>
-            Und hier der content. Schrift kann ruhig bissl grösser sein, wa?!
-          </p>
+              <div class="quote">
+                <p>
+                  No valid plans for the future can be made
+                  by those who have no capacity for living now.
+                </p>
 
-          <ul>
-            {% for post in site.posts %}
-              <li>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-                {{ post.excerpt }}
-              </li>
-            {% endfor %}
-          </ul>
+                <div class="right-align">
+                  Alan Watts
+                </div>
+              </div>
+
+              <div class="col col-8">
+                <ul>
+                  {% for post in site.posts %}
+                    <li>
+                      <a href="{{ post.url }}">{{ post.title }}</a>
+                      {{ post.excerpt }}
+                    </li>
+                  {% endfor %}
+                </ul>
+              </div>
+
+              <div class="col col-4">
+                <img src="./assets/pictures/Austria/Vienna/100_1739_thumb.JPG" width="100" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

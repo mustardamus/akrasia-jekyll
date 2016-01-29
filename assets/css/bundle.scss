@@ -55,7 +55,6 @@ h1, h2, h3, h4, h5, h6 {
       &.active {
         a {
           background: $color1;
-          border-radius: 2px;
           color: $dark2;
           text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
 
@@ -66,6 +65,10 @@ h1, h2, h3, h4, h5, h6 {
       }
     }
   }
+}
+
+#sidebar {
+  margin-top: 18px;
 }
 
 #content {
@@ -87,40 +90,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#sidebar {
 
-}
-
-#shortbio {
-  p {
-    font-size: 0.9em;
-    border-top: 10px solid rgba(0, 0, 0, 0.1);
-    border-bottom: 10px solid rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    margin: 20px;
-    text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
-    color: #ddd;
-  }
-}
-
-#elsewhere {
-  padding: 10px 30px;
-
-  a {
-    svg {
-      width: 26px;
-      border: 1px solid rgba(0, 0, 0, 0.2);
-      border-radius: 100%;
-      padding: 10px;
-      margin-top: 2px;
-    }
-
-    &:hover svg {
-      border: 3px solid $color1;
-      margin-top: 0;
-    }
-  }
-}
-
-//@import 'homepage';
+@import 'homepage';
 //@import 'pictures';

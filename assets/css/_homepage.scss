@@ -1,3 +1,48 @@
-body {
-  
+#shortbio {
+  p {
+    font-size: 0.9em;
+    border-top: 10px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 1);
+    color: #ddd;
+  }
+}
+
+#elsewhere {
+  padding: 10px 30px;
+
+  a {
+    svg {
+      width: 26px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 100%;
+      padding: 10px;
+      margin-top: 2px;
+    }
+
+    &:hover svg {
+      border: 3px solid $color1;
+      margin-top: 0;
+    }
+  }
+}
+
+#content .quote {
+  margin-bottom: 50px;
+  border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+
+  p {
+    font-size: 1.6em !important;
+    color: #888;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
+    margin: 0;
+    padding: 20px 20px 10px 20px;
+  }
+
+  div {
+    font-family: $sans;
+    color: $dark2;
+  }
 }
