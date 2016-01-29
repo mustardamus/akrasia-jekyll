@@ -1,5 +1,6 @@
 incremental: true
 exclude    : [pictures, tasks, README.md]
+permalink  : '/blog/:title'
 
 sass:
   sass_dir: assets/css

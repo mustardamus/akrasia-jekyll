@@ -29,7 +29,7 @@
   }
 }
 
-.quote {
+#quote {
   padding-bottom: 5px;
   margin-bottom: 50px;
   border-bottom: 5px solid rgba(0, 0, 0, 0.1);
@@ -45,10 +45,11 @@
   div {
     font-family: $sans;
     color: $dark2;
+    padding-right: 10px;
   }
 }
 
-.recent-posts {
+#recent-posts {
   margin-right: 10px;
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px 0;
@@ -92,6 +93,26 @@
         .date {
           color: #666;
         }
+      }
+    }
+  }
+}
+
+#random-pics {
+  li {
+    margin-bottom: 3px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    a {
+      img {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      &:hover img {
+        border: 1px solid $color2;
       }
     }
   }

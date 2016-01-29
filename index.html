@@ -64,7 +64,7 @@
           <div class="container">
             <div class="clearfix">
 
-              <div class="quote">
+              <div id="quote">
                 <p>
                   No valid plans for the future can be made
                   by those who have no capacity for living now.
@@ -76,7 +76,7 @@
               </div>
 
               <div class="col col-8">
-                <ul class="list-reset recent-posts">
+                <ul class="list-reset" id="recent-posts">
                   {% for post in site.posts limit: 5 %}
                     <li>
                       <a href="{{ post.url }}">
@@ -91,12 +91,17 @@
               </div>
 
               <div class="col col-4">
-                <img src="./assets/pictures/Austria/Vienna/100_1739_thumb.JPG" />
+                <ul class="list-reset" id="random-pics">
+                  <!-- filled with 3 random pics by homepage.js -->
+                </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <script type="text/javascript" src="/assets/vendor/js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/assets/js/homepage.js"></script>
   </body>
 </html>
