@@ -2,23 +2,25 @@
 ---
 
 @import url(https://fonts.googleapis.com/css?family=Ovo);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 $dark1: #101010;
 $dark2: #202020;
 $color1: #D21522;
+$serif: 'Ovo', serif;
+$sans: 'Montserrat', sans-serif;
 
 body {
   background: url('../images/use_your_illusion.png') repeat top left $dark2;
 }
 
 p {
-  font-family: 'Ovo', serif;
+  font-family: $serif;
   color: $dark2;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $sans;
   color: $dark1;
 }
 
@@ -28,17 +30,19 @@ h1, h2, h3, h4, h5, h6 {
   .navigation {
     position: relative;
     z-index: 2;
+    margin-left: 10px;
 
     li {
       float: left;
-      margin: 0 10px;
+      margin-right: 30px;
 
       a {
         color: $color1;
-        font-family: 'Open Sans', sans-serif;
+        font-family: $sans;
         font-size: 1.2em;
-        padding: 10px 20px;
+        padding: 10px 30px;
         border-bottom: 10px solid rgba(255, 255, 255, 0.1);
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
         background: rgba(0, 0, 0, 0.1);
         text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1);
 
@@ -71,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   position: relative;
   z-index: 1;
-  top: 9px;
+  top: 8px;
 
   .inner {
     background: white;
