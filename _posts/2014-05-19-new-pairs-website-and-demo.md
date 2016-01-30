@@ -1,5 +1,6 @@
 ---
 title: New pairs.io website and demo
+category: projects
 ---
 
 ### [Pairs.io](http://pairs.io)

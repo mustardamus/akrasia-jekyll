@@ -1,5 +1,6 @@
 ---
 title: Hostel Hop Day X - Damn continuity
+category: personal
 ---
 
 Ahh, the wonders of continuity. It didn't happen to the [48 days of Hostel

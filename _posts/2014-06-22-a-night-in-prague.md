@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No1 - A night in Prague
+category: traveling
 ---
 
 After five months in Leipzig I'm finally back on the road. I documented my trip

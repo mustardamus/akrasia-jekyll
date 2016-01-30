@@ -1,5 +1,6 @@
 ---
 title: Hostel Hop - 48 days for the real thing
+category: projects
 ---
 
   * [Day 1 + 2 - Scraping and bootstrapping data](/#/blog/hostel-hop-scraping-and-bootstrapping)

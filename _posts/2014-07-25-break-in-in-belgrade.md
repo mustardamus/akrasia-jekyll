@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No6 - Break-in in Belgrade
+category: traveling
 ---
 
 This time I've chosen the fancy way of travelling and took the plane from

@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No5 - Big bold Bucharest
+category: traveling
 ---
 
 I left [Sofia](/#/blog/back-in-sofia) by night-train to Bucharest. I

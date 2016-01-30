@@ -1,5 +1,6 @@
 ---
 title: Hostel Hop Pitch - Scraps No1
+category: projects
 ---
 
 I started to work on my project Hostel Hop again. That is, the technical side of

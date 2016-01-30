@@ -1,5 +1,6 @@
 ---
 title: Lessons learned at Rails Rumble 2014
+category: projects
 ---
 
 Once again I competed in the 48 hour coding competition called

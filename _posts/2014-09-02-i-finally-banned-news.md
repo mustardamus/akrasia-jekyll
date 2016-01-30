@@ -1,5 +1,6 @@
 ---
 title: I finally banned 'news'
+category: personal
 ---
 
 Over a year ago I got rid of my TV ([along with many other stuff](http://akrasia.me/getting-rid-of-stuff-second-phase/)).

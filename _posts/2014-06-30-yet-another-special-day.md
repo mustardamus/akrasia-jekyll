@@ -1,5 +1,6 @@
 ---
 title: Yet another special day
+category: personal
 ---
 
 It's my 9862. day on earth. It's my 27th birthday, and I don't really care. At

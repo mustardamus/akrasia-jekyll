@@ -1,5 +1,6 @@
 ---
 title: Hostel Hop Day 1 + 2 - Scraping and bootstrapping data
+category: coding
 ---
 
 The first thing we did for our [static showdown entry](http://www.staticshowdown.com/app/teams/ed340284e574310eaa4c1d349eb23b54/entry)

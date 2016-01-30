@@ -1,5 +1,6 @@
 ---
 title: Put yourself out there
+category: personal
 ---
 
 For the past seven months I've been homeless. Stop the tears right now because I

@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No4 - Back in Sofia
+category: traveling
 ---
 
 I left [Budapest](/#/blog/a-taste-of-budapest) in the evening via the

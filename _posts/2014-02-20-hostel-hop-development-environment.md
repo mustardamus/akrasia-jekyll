@@ -1,5 +1,6 @@
 ---
 title: Hostel Hop Day 3 - Development Environment
+category: coding
 ---
 
 ### Hipster coding? Nah, I just like to save myself time

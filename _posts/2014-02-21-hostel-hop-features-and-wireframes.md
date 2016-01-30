@@ -1,5 +1,6 @@
 ---
 title: Hostel Hop Day 4 - Initial features and wireframes
+category: projects
 ---
 
 ### Features for the first version

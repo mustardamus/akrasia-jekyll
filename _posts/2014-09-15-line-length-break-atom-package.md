@@ -1,5 +1,6 @@
 ---
 title: Line Length Break Atom Editor Package
+category: projects
 ---
 
 I moved my Blog from a [Ghost](https://ghost.org/) setup to a

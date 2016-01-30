@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No3 - A taste of Budapest
+category: traveling
 ---
 
 This was a quick one night stop in Budapest because there is no bus from

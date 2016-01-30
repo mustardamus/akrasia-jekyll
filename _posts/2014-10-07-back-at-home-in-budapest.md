@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No7 - Back at home in Budapest
+category: traveling
 ---
 
 _tl;dr I've procrastinated two months on translating (I keep notes in German)

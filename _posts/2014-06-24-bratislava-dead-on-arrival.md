@@ -1,5 +1,6 @@
 ---
 title: Trip 2014 No2 - Bratislava - Dead on arrival
+category: traveling
 ---
 
 After my [night in Prague](/#/blog/a-night-in-prague/) and a quick nap

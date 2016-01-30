@@ -1,5 +1,6 @@
 ---
 title: Getting rid of stuff - second phase
+category: personal
 ---
 
 One year ago I was wrapping up the first phase of getting rid of many of my
