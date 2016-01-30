@@ -24,7 +24,14 @@ $(function() {
       var pic  = picsArr[rand];
       var path = pic.country + '/' + pic.city + '/' + pic.picture.replace('.', '_thumb.');
 
-      picsEl.append('<li><a href="/pictures"><img src="/assets/pictures/' + path + '"></a></li>')
+      picsEl.append(
+        '<li>' +
+          '<a href="/pictures#' + pic.city + '">' +
+            '<img src="/assets/pictures/' + path + '">' +
+            '<span>' + pic.city + '</span>' +
+          '</a>' +
+        '</li>'
+      );
     }
   });
 });
