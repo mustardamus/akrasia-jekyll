@@ -9,8 +9,6 @@ $(function() {
   var citiesNum   = $('.first-row li', citiesNavEl).length;
   var halfNum     = Math.floor(citiesNum / 2);
 
-  $('ul', citiesNavEl).hide();
-
   for(var i = 0; i < citiesNum - halfNum; i++) {
     var el = $('.first-row li:last-child', citiesNavEl);
     console.log(el);
