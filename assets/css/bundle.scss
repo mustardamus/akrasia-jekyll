@@ -72,6 +72,38 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 18px;
 }
 
+#elsewhere {
+  &.small {
+    padding: 0 30px 20px 30px;
+    margin: 0 20px 20px 20px;
+    border-bottom: 10px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .clearfix {
+    min-height: 58px;
+  }
+
+  a {
+    svg {
+      width: 26px;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: 100%;
+      padding: 10px;
+      margin-top: 2px;
+    }
+
+    img {
+      margin-top: 2px;
+      width: 49px;
+    }
+
+    &:hover svg {
+      border: 3px solid $color1;
+      margin-top: 0;
+    }
+  }
+}
+
 #content {
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 0 30px rgba(0, 0, 0, 1);
@@ -94,4 +126,4 @@ h1, h2, h3, h4, h5, h6 {
 
 
 @import 'homepage';
-//@import 'pictures';
+@import 'pictures';

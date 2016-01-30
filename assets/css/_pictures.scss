@@ -1,36 +1,46 @@
-.navigation {
-  .back {
-    margin-top: 40px;
-  }
+#pictures {
+  .city {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 50px;
 
-  ul {
-    margin-top: 30px;
-
-    li a {
-      display: block;
-    }
-  }
-}
-
-.content {
-  margin-left: 200px;
-
-  .city h1 small {
-    color: #aaa;
-    font-weight: normal;
-  }
-
-  .pictures {
-    .col {
-      padding-bottom: 2px;
+    &:last-child {
+      border-bottom: none;
+      margin: 0;
+      padding: 0;
     }
 
-    a img {
-      border: 3px solid #aaa;
+    h1 {
+      color: $dark2;
+      margin: 0 0 20px 0;
+      padding-bottom: 10px;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      small {
+        font-family: $serif;
+        color: $color2;
+        font-size: 0.6em;
+      }
     }
 
-    a:hover img {
-      border: 3px solid #0074d9;
+    .pictures {
+      line-height: 0;
+
+      .picture {
+        margin: 0 4px 3px 4px;
+
+        a {
+          img {
+            border: 3px solid #aaa;
+          }
+
+          &:hover {
+            img {
+              border: 3px solid $color2;
+            }
+          }
+        }
+      }
     }
   }
 }
