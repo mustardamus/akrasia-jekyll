@@ -38,11 +38,32 @@
       <div class="col col-4" id="sidebar">
         {% include elsewhere-small.html %}
 
-        <div class="container">
-          <div class="clearfix" id="blog-nav">
-            something...
-          </div>
-        </div>
+        <ul class="list-reset" id="blog-nav">
+          <!-- generate via js based on posts in content -->
+          <li>
+            <a href="#personal">
+              <span class="title">Personal</span>
+              <span class="count">12 Posts</span>
+              <span class="close allign">X</span>
+            </a>
+          </li>
+
+          <li class="active">
+            <a href="#personal">
+              <span class="title">Traveling</span>
+              <span class="count">23 Posts</span>
+              <span class="close">X</span>
+            </a>
+          </li>
+
+          <li>
+            <a href="#personal">
+              <span class="title">Coding</span>
+              <span class="count">9 Posts</span>
+              <span class="close">X</span>
+            </a>
+          </li>
+        </ul>
       </div>
 
       <div class="col col-8" id="content">
