@@ -66,9 +66,9 @@ permalink: pictures
         <div class="container">
           <div class="clearfix" id="cities-nav">
             <div class="col col-6">
-              <ul class="list-reset">
+              <ul class="list-reset first-row">
                 {% for set in site.data.pictures %}
-                  <li>
+                  <li class="center">
                     <a href="#{{ set.city }}">
                       {{ set.city }}
                     </a>
@@ -78,7 +78,9 @@ permalink: pictures
             </div>
 
             <div class="col col-6">
-              zweite spalte, wie?
+              <ul class="list-reset second-row">
+                <!-- filled by pictures.js -->
+              </ul>
             </div>
           </div>
         </div>

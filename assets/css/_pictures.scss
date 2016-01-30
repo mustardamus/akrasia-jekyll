@@ -44,3 +44,31 @@
     }
   }
 }
+
+#cities-nav {
+  ul {
+    margin: 0 10px;
+
+    li {
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+      &:last-child {
+        border: none;
+      }
+
+      a {
+        color: $color1;
+        font-family: $sans;
+        display: block;
+        padding: 5px 0;
+
+        &:hover {
+          background: $color1;
+          color: $dark2;
+          text-decoration: none;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}
