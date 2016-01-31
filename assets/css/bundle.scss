@@ -3,6 +3,7 @@
 
 @import url(https://fonts.googleapis.com/css?family=Ovo);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Oxygen+Mono);
 
 $dark1: #101010;
 $dark2: #202020;
@@ -10,6 +11,7 @@ $color1: #D21522;
 $color2: #B00449;
 $serif: 'Ovo', serif;
 $sans: 'Montserrat', sans-serif;
+$mono: 'Oxygen Mono';
 
 body {
   background: url('../images/use_your_illusion.png') repeat top left $dark2;
@@ -158,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
           width: 25px;
           height: 23px;
           padding-top: 2px;
-          font-size: 0.8em;
+          font-size: 0.9em;
           background: $dark2;
           border-radius: 100%;
           text-align: center;

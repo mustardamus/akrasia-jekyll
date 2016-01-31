@@ -40,40 +40,82 @@
 
         <ul class="list-reset" id="blog-nav">
           <!-- generate via js based on posts in content -->
-          <li>
-            <a href="#personal">
-              <span class="title">Personal</span>
-              <span class="count">12 Posts</span>
-              <span class="close allign">X</span>
-            </a>
-          </li>
-
-          <li class="active">
-            <a href="#personal">
-              <span class="title">Traveling</span>
-              <span class="count">23 Posts</span>
-              <span class="close">X</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#personal">
-              <span class="title">Coding</span>
-              <span class="count">9 Posts</span>
-              <span class="close">X</span>
-            </a>
-          </li>
         </ul>
       </div>
 
       <div class="col col-8" id="content">
         <div class="inner">
-          something...
+          <ul class="list-reset" id="posts">
+            {% for post in site.posts %}
+              <li class="category-{{ post.category }}">
+                <h1>
+                  <a href="{{ post.url }}">
+                    {{ post.title }}
+                  </a>
+                </h1>
+
+                <div class="meta">
+                  <span class="category">{{ post.category | capitalize }}</span>
+                </div>
+              </li>
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
 
     <script type="text/javascript" src="/assets/vendor/js/jquery-2.2.0.min.js"></script>
     <script type="text/javascript" src="/assets/js/blog.js"></script>
+
+    <script type="text/javascript">
+      $(function() {
+        var catsArr   = [];
+        var catsCount = {};
+        var postsEl   = $('#posts');
+        var navEl     = $('#blog-nav');
+
+        for(var i = 0; i < $('li', postsEl).length; i++) {
+          var cat = $('li:eq(' + i + ') .category', postsEl).text();
+
+          if($.inArray(cat, catsArr) === -1) {
+            catsArr.push(cat);
+            catsCount[cat] = 1;
+          } else {
+            catsCount[cat] += 1;
+          }
+        }
+
+        catsArr = catsArr.sort();
+
+        for(var i = 0; i < catsArr.length; i++) {
+          navEl.append('<li>' +
+            '<a href="#' + catsArr[i] + '">' +
+              '<span class="title">' + catsArr[i] + '</span>' +
+              '<span class="count">' + catsCount[catsArr[i]] + ' Posts</span>' +
+              '<span class="close">&times;</span>' +
+            '</a>' +
+          '</li>');
+        }
+
+        $('li', navEl).click(function() {
+          var el       = $(this);
+          var catTitle = $('.title', el).text().toLowerCase();
+          var catsEl   = $('.category-' + catTitle);
+
+          $('.active', navEl).not(el).removeClass('active');
+
+          if(el.hasClass('active')) {
+            el.removeClass('active');
+            $('li', postsEl).show();
+          } else {
+            el.addClass('active');
+            $('li', postsEl).not(catsEl).hide();
+            catsEl.show();
+          }
+
+          return false;
+        });
+      });
+    </script>
   </body>
 </html>
