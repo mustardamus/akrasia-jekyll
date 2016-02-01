@@ -14,7 +14,7 @@ $sans: 'Montserrat', sans-serif;
 $mono: 'Oxygen Mono';
 
 body {
-  background: url('../images/use_your_illusion.png') repeat top left $dark2;
+  background: url('../images/use_your_illusion.png') repeat top left fixed $dark2;
 }
 
 p {
@@ -129,80 +129,4 @@ h1, h2, h3, h4, h5, h6 {
 
 @import 'homepage';
 @import 'pictures';
-
-#blog-nav {
-  margin: 0 20px;
-
-  li {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-    line-height: 22px;
-
-    &:last-child {
-      border: none;
-    }
-
-    &.active {
-      a {
-        background: $color1;
-        border-radius: 2px;
-
-        .title {
-          color: $dark1;
-        }
-
-        .close {
-          position: absolute;
-          display: block;
-          top: 17px;
-          right: 17px;
-          width: 25px;
-          height: 23px;
-          padding-top: 2px;
-          font-size: 0.9em;
-          background: $dark2;
-          border-radius: 100%;
-          text-align: center;
-        }
-
-        &:hover .close {
-          background: $dark1;
-        }
-      }
-    }
-
-    a {
-      display: block;
-      position: relative;
-      text-align: center;
-      color: $color1;
-      font-family: $sans;
-      padding: 7px 0 4px 0;
-
-      .title {
-        font-size: 1.6em;
-      }
-
-      .count {
-        display: block;
-        color: $dark1;
-      }
-
-      .close {
-        display: none;
-      }
-
-      &:hover {
-        text-decoration: none;
-        background: $color1;
-        border-radius: 2px;
-
-        .title {
-          color: $dark1;
-          text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.1);
-        }
-      }
-    }
-  }
-}
+@import 'blog';
