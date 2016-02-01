@@ -1,13 +1,79 @@
+---
+---
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
     <title>Akrasia - {{ page.title }}</title>
 
+    <meta name="author" content="Sebastian Senf (me@akrasia.me)">
+    <meta name="description" content="Digital playground of Sebastian Senf">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="/assets/images/favicon.png">
+
     <link rel="stylesheet" href="/assets/vendor/css/basscss.min.css" media="screen">
+    <link rel="stylesheet" href="/assets/vendor/css/monokai.css" media="screen">
+    <link rel="stylesheet" href="/assets/css/bundle.css" media="screen">
   </head>
 
   <body>
-    {{ content }}
+    <div class="container">
+      <div id="header">
+        <div class="col col-4">
+          &nbsp;<!-- is okay -->
+        </div>
+        <div class="col col-8">
+          <ul class="navigation list-reset">
+            <li><a href="/">Home</a></li>
+            <li class="active"><a href="/blog">Blog</a></li>
+            <li><a href="/pictures">Pictures</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col col-4" id="sidebar">
+        {% include elsewhere-small.html %}
+
+        <ul class="list-reset" id="post-nav">
+          {% for post in site.posts limit: 5 %}
+            <li>
+              <a href="{{ post.url }}">
+                <span class="title">{{ post.title }}</span>
+                <span class="date">
+                  {{ post.date | date_to_long_string }}
+                </span>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col col-8" id="content">
+        <div class="inner" id="post">
+
+          <div class="heading">
+            <h1>{{ page.title }}</h1>
+
+            <div class="meta">
+              <span class="category">{{ page.category | capitalize }}</span>
+              -
+              <span class="time">{{ page.date | date_to_long_string }}</span>
+            </div>
+          </div>
+
+          <div class="content">
+            {{ page.content }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="/assets/vendor/js/jquery-2.2.0.min.js"></script>
+    <script type="text/javascript" src="/assets/js/post.js"></script>
   </body>
 </html>

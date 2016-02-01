@@ -1,0 +1,53 @@
+#post {
+  .heading {
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+    margin: 30px 0 50px 0;
+
+    h1 {
+      margin: 0 0 20px 0;
+    }
+
+    .meta {
+      background: rgba(0, 0, 0, 0.1);
+      font-family: $sans;
+      display: inline-block;
+      color: rgba(0, 0, 0, 0.6);
+      padding: 5px 10px 1px 10px;
+      text-transform: uppercase;
+      font-size: 0.8em;
+      border-top-left-radius: 2px;
+      border-top-right-radius: 2px;
+    }
+  }
+
+  .content {
+    a {
+      color: $dark1;
+      border-bottom: 2px solid $color2;
+
+      &:hover {
+        text-decoration: none;
+        color: $color2;
+      }
+    }
+
+    ol, ul {
+      font-family: $serif;
+      font-size: 1.1em;
+    }
+
+    pre, code {
+      font-family: $mono !important;
+    }
+
+    .highlight {
+      font-size: 0.8em;
+      margin: 0 !important;
+
+      pre {
+        padding: 10px !important;
+        background: url('../images/use_your_illusion.png') repeat top left fixed $color2;
+      }
+    }
+  }
+}

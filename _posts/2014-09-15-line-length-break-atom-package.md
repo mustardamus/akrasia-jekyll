@@ -38,7 +38,8 @@ Naturally, this hack is not perfect. It breaks everything before the preferred
 line length, even if it break a Markdown link, for example. But it got the
 job done and saved myself time.
 
-<pre><code data-language="coffeescript">module.exports =
+{% highlight coffeescript %}
+module.exports =
   activate: (state) ->
     atom.workspaceView.command 'line-length-break:break', => @breakLines()
 
@@ -71,7 +72,8 @@ job done and saved myself time.
         newContent.push line
 
     editor.selectAll()
-    editor.insertText newContent.join('\n')</code></pre>
+    editor.insertText newContent.join('\n')
+{% endhighlight %}
 
 Find the whole [code on GitHub](https://github.com/mustardamus/line-length-break)
 and the
