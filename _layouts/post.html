@@ -39,12 +39,12 @@
       <div class="col col-4" id="sidebar">
         {% include elsewhere-small.html %}
 
-        <ul class="list-reset" id="post-nav">
+        <ul class="list-reset small" id="blog-nav">
           {% for post in site.posts limit: 5 %}
             <li>
               <a href="{{ post.url }}">
                 <span class="title">{{ post.title }}</span>
-                <span class="date">
+                <span class="count">
                   {{ post.date | date_to_long_string }}
                 </span>
               </a>

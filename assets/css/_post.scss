@@ -51,3 +51,30 @@
     }
   }
 }
+
+#blog-nav.small {
+  a {
+    .title {
+      font-size: 1.2em;
+    }
+
+    .count {
+      padding-top: 3px;
+    }
+
+    &:hover {
+      background: none;
+
+      .title {
+        border-bottom: 2px solid $color1;
+        color: $color1;
+        text-shadow: none;
+      }
+
+      .count {
+        color: black;
+      }
+    }
+  }
+
+}
