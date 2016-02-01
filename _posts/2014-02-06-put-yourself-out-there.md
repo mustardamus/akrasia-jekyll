@@ -39,7 +39,7 @@ of forcing myself out of my ordinary life.
 Next I found myself for one month in Prague. And I loved it! Everyday I had new
 experiences. I tried out new things. There was no status quo anymore.
 
-[More cities followed](/#/on-the-road/): Amsterdam, Rotterdam,
+[More cities followed](/pictures): Amsterdam, Rotterdam,
 Brussels, Brugge, Budapest and Copenhagen.
 
 Now, seven months later sitting in a hostel in Sofia, I can say that this was

@@ -20,7 +20,8 @@ shitty code that get it done fast.
 Anyway, each hostel is inserted in a [MongoDB](http://mongodb.org/). Here is the
 [Mongoid](http://mongoid.org/en/mongoid/index.html) model declaration:
 
-<pre><code data-language="ruby">class Hostel
+{% highlight ruby %}
+class Hostel
   include Mongoid::Document
   include Mongoid::Timestamps
   include Mongoid::Versioning
@@ -32,7 +33,8 @@ Anyway, each hostel is inserted in a [MongoDB](http://mongodb.org/). Here is the
   field :country, type: String, default: ''
   field :rating, type: Integer, default: 0
   field :reviews, type: Integer, default: 0
-end</code></pre>
+end
+{% endhighlight %}
 
 Now I got quite a few hostels and basic information about them from around the
 world. Since they are inserted in a database it is pretty easy to work with
@@ -40,11 +42,12 @@ them.
 
 How many exactly?
 
-<pre><code data-language="shell">❯ mongoexport --db hostelhop_v1 --collection
+{% highlight ruby %}
+❯ mongoexport --db hostelhop_v1 --collection
 hostels --out hostels.json
 connected to: 127.0.0.1
 exported 7602 records
-</code></pre>
+{% endhighlight %}
 
 Feel free to [download the hostels.json (11mb)](https://mega.co.nz/#!mc1BSLgK!0JKuivFlWtlhlisa6t6sWqhzEmRyTcFgtDrFxa15tKI)
 and play around with it.
@@ -61,7 +64,8 @@ Still almost 500. Then I write it in separate JSON files, one for each country.
 Also I save a index of countries and cities that will be the entry point for my
 app.
 
-<pre><code data-language="ruby">require 'json'
+{% highlight ruby %}
+require 'json'
 require 'mongoid'
 
 root_path = File.expand_path(File.dirname(__FILE__))
@@ -104,7 +108,8 @@ end
 
 File.open("#{root_path}/data/bootstrap/countries.json",
 'w').write(countries.to_json)
-puts "Saved countries index"</code></pre>
+puts "Saved countries index"
+{% endhighlight %}
 
 Sweet! Now I got separated JSON files I could easily query with Ajax. Since I'll
 use [Backbone.js](http://backbonejs.org/) anyway, this is the way to bootstrap

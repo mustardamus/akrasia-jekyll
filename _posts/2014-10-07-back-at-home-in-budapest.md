@@ -9,7 +9,7 @@ year. Many Drum and Bass parties, I met many awesome people and basically had a
 care-free time. I'll be back, for sure._
 
 At first I wasn't really keen to take the overnight train from
-[Belgrade](/#/blog/break-in-in-belgrade) to Budapest. But as it
+[Belgrade](/break-in-in-belgrade) to Budapest. But as it
 turned out, it was a really nice train.
 
 The first hour or two I talked to two guys from Serbia. They gave me some meat,
@@ -65,10 +65,10 @@ was great catching up. He is still living in Budapest, but stopped working at
 the Bubble. Currently he is chilling with his Hungarian girlfriend, fishing and
 keeping it simple. Great dude.
 
-![](/pictures/Hungary/Budapest/100_1325.jpg)
+![](/assets/pictures/Hungary/Budapest/100_1325.JPG)
 
 Afterwards I met up with Dominique, the Canadian girl I first met in
-[Belgrade](/#/blog/break-in-in-belgrade).
+[Belgrade](/break-in-in-belgrade).
 She, Mauricio from Brazil and myself went to [Margaret
 Island](https://en.wikipedia.org/wiki/Margaret_Island). Beautiful place. Can't
 believe I haven't been there once at my last stay in Budapest. There is a
@@ -148,7 +148,7 @@ I came back to the Hostel at midnight, and everyone was already gone. So I used
 the quite moment and did my daily work for like three hours. At three in the
 morning I decided to give Instant just another shot. Maybe I'll be lucky again.
 
-When I arrived at Instat it was packed. Anyway, that only meant I can make some
+When I arrived at Instant it was packed. Anyway, that only meant I can make some
 quick connections with strangers from all over the world. After a hour of
 Dubstep (not really a fan) it got better and the DJs started to play Jungle. Oh
 yeah, it ended in a sweet Drum and Bass session again.
@@ -162,7 +162,7 @@ from the day before and didn't want to go out again. In the afternoon I worked,
 hang out in the hostel and went up the Gellért Hill to chill some more and read
 a book. Very nice place to relax for a bit and chat up some tourists.
 
-![](/pictures/Hungary/Budapest/100_1319.jpg)
+![](/assets/pictures/Hungary/Budapest/100_1319.JPG)
 
 In the evening I was looking forward to continue the day with relaxing and
 chilling. But then Paola from Chile, I met her in Belgrade, messaged me that she
@@ -220,7 +220,7 @@ definitely not my default.
 
 We were back at the Hostel at about 11am.
 
-![](/pictures/Hungary/Budapest/100_1354.jpg)
+![](/assets/pictures/Hungary/Budapest/100_1354.JPG)
 
 Cause and effect: The next day was horrible. I haven't been that hung-over for
 a very long time. I got out of bed, cooked some Spaghetti, ate, and chilled

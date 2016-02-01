@@ -4,7 +4,7 @@ category: personal
 ---
 
 Ahh, the wonders of continuity. It didn't happen to the [48 days of Hostel
-Hop](/#/blog/hostel-hop-48-days). But why not stick to the project?
+Hop](/hostel-hop-48-days). But why not stick to the project?
 
 That's a question I try to answer to myself for quite a while now. It's not that
 I don't have a answer at all, I've found the solution already! But it's some

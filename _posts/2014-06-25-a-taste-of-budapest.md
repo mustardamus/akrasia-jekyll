@@ -17,7 +17,7 @@ Ház](https://www.facebook.com/fogashaz) - three famous
 Nothing too crazy happened, had two beers and talked shit with Swedish guys
 tressed up as cats. Typical Monday in 'Pest.
 
-![](/pictures/Hungary/Budapest/100_1050.jpg)
+![](/assets/pictures/Hungary/Budapest/100_1050.JPG)
 
 Next day it rained all day, so I didn't do anything city-related. Just sat down
 and did some work, grabbed some food and [delicious soup](https://www.facebook.com/levespont).

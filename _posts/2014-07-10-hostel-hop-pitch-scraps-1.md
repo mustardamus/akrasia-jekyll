@@ -7,7 +7,7 @@ I started to work on my project Hostel Hop again. That is, the technical side of
 it (more on that in the future).
 
 My plan is to raise some money through crowdfunding. And therefor I need a pitch
-video.  And what else could be better to record a pitch video for a travelling
+video.  And what else could be better to record a pitch video for a traveling
 app while travelling?
 
 So yesterday I started to record it. When it's done, it will have many different

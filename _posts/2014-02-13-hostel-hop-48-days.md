@@ -3,14 +3,14 @@ title: Hostel Hop - 48 days for the real thing
 category: projects
 ---
 
-  * [Day 1 + 2 - Scraping and bootstrapping data](/#/blog/hostel-hop-scraping-and-bootstrapping)
-  * [Day 3 - Development Environment](/#/blog/hostel-hop-development-environment)
-  * [Day 4 - Initial features and wireframes](/#/blog/hostel-hop-features-and-wireframes)
-  * [Day X - Damn continuity](/#/blog/hostel-hop-damn-continuity)
+  * [Day 1 + 2 - Scraping and bootstrapping data](/hostel-hop-scraping-and-bootstrapping)
+  * [Day 3 - Development Environment](/hostel-hop-development-environment)
+  * [Day 4 - Initial features and wireframes](/hostel-hop-features-and-wireframes)
+  * [Day X - Damn continuity](/hostel-hop-damn-continuity)
 
 ### The idea
 
-Since I've been [homeless the past seven months](/#/blog/put-yourself-out-there),
+Since I've been [homeless the past seven months](/blog/put-yourself-out-there),
 I've been in a lot of hostels. And I totally enjoyed it. In fact, so much that I
 stayed at the
 [Bubble](http://www.hostelworld.com/hosteldetails.php/Budapest-Bubble/Budapest/20989)
@@ -64,5 +64,5 @@ and document the progress. Also, naturally, I will travel around and speak to
 hostel workers as well as visitors about this idea. The ultimate goal would be
 funding to move this project forward.
 
-Any feedback is very welcome: Write me a [e-mail](mailto:contact@mustardamus.com) or a
-message at [@mustardamus](https://twitter.com/mustardamus).
+Any feedback is very welcome: Write me a [e-mail](mailto:contact@mustardamus.com)
+or a message at [@mustardamus](https://twitter.com/mustardamus).

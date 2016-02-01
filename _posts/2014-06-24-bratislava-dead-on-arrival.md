@@ -3,7 +3,7 @@ title: Trip 2014 No2 - Bratislava - Dead on arrival
 category: traveling
 ---
 
-After my [night in Prague](/#/blog/a-night-in-prague/) and a quick nap
+After my [night in Prague](/a-night-in-prague/) and a quick nap
 on the bus I arrived in Bratislava. Never been there before, but my excitement
 level was on a low because I was dead from the night before. I longed for a bed.
 
@@ -14,7 +14,7 @@ somewhere near the old town. And that the bus station was somewhat too far away
 to walk.
 
 So I thought fuck it, got 50€ from an ATM and took a cab. I already knew
-beforehand that this is a bad idea. Why? Because everyone travelling can tell
+beforehand that this is a bad idea. Why? Because everyone traveling can tell
 you that cab drivers waiting in front of train- or bus-stations are ripping off
 tourists. Lovely generalization, isn't it? I heard it over and over again.
 It never happened to me because I usually like the adventure of taking unknown
@@ -28,7 +28,7 @@ second he took off (it's ďakujem).
 Check in. Slept from 2PM till 10PM. Got a shower and finally felt like I arrived
 in a new city. Hello excitement!
 
-![](/pictures/Slovakia/Bratislava/100_1009.jpg)
+![](/assets/pictures/Slovakia/Bratislava/100_1009.JPG)
 
 So I went out striving for something to eat in the old town. Naturally I took
 slightly the wrong direction (remember, there is no wrong direction in unknown
@@ -44,7 +44,7 @@ After a really nice conversation with them I continued to the city and found
 food pretty quickly. Although the streets were packed with people (I heard many
 many Germans), I did go back to the hostel to get my fair share of sleep.
 
-![](/pictures/Slovakia/Bratislava/100_1007.jpg)
+![](/assets/pictures/Slovakia/Bratislava/100_1007.JPG)
 
 The next day I went out and did my usual no-goal sightseeing. Bratislava is
 pretty nice! The old town is packed with tourists, but the surrounding city
@@ -60,7 +60,7 @@ game. Now I am no football guy at all, but seeing tourists from all over the
 world going nuts can be pretty funny. Unless there are Germans, then my primary
 feeling is shame. Sorry folk(s)!
 
-![](/pictures/Slovakia/Bratislava/100_1029.jpg)
+![](/assets/pictures/Slovakia/Bratislava/100_1029.JPG)
 
 On the third and last day in Bratislava I did go to the [botanic garden](http://www.uniba.sk/index.php?id=1307).
 Pretty chilled. Don't know when

@@ -4,7 +4,7 @@ category: personal
 ---
 
 One year ago I was wrapping up the first phase of getting rid of many of my
-stuff [to finally get out](/#/blog/put-yourself-out-there). I haven't
+stuff [to finally get out](/put-yourself-out-there). I haven't
 counted how much stuff went for sale, as gifts or in the trash. TV, furniture,
 papers, books, electronic equipment, apartment, etc.
 

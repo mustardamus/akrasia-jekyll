@@ -4,7 +4,7 @@ category: traveling
 ---
 
 This time I've chosen the fancy way of travelling and took the plane from
-[Bucharest](/#/blog/big-bold-bucharest) to Belgrade. This took me
+[Bucharest](/big-bold-bucharest) to Belgrade. This took me
 only 1.5 hours, and with the time difference it was even only 30 minutes.
 
 Totally randomly I bumped into Laurie, the Canadian girl I met in Bucharest
@@ -47,7 +47,7 @@ I took the wrong side of the river to walk to the beach. For a while everything
 was fine, but eventually the sidewalk ended. Instead of going back to the last
 bridge I decided to take the chance and walk by the riverside.
 
-![](/pictures/Serbia/Belgrade/100_1279.jpg)
+![](/assets/pictures/Serbia/Belgrade/100_1279.JPG)
 
 That worked out for quite a while, but finally I couldn't go any further. So I
 had to go up a little hill. Eventually I was standing in some kind of lot with
@@ -81,7 +81,7 @@ and Bass night! So I had fun, of course, and I think the other guys as well. I
 also met some local people and found out that they were really friendly. It's
 really easy to start conversations with them. In Bucharest I found it harder.
 
-The next day I went out and shoot the [next part](/#blog/hostel-hop-pitch-scraps-3)
+The next day I went out and shoot the [next part](/hostel-hop-pitch-scraps-3)
 for my Hostel Hop pitch
 video. After that I walked along the river up to the north, and took a little
 nap in a park. Walked a bit around in the city, did the sightseeing I missed on

@@ -3,7 +3,7 @@ title: Trip 2014 No4 - Back in Sofia
 category: traveling
 ---
 
-I left [Budapest](/#/blog/a-taste-of-budapest) in the evening via the
+I left [Budapest](/a-taste-of-budapest) in the evening via the
 overnight bus to Sofia. Twelve hours of comfort ahead. Equipped with some hours
 of laptop battery and more hours of audiobooks that should be no problem.
 
@@ -11,7 +11,7 @@ After doing my work for two hours I met this great girl from Bulgaria, Kameliya.
 She is a photographer for movies and had a gig in Budapest.
 
 What followed was a nice five hours conversation about everything, from
-travelling, over friendships, passions, hobbys, languages, to life and and
+traveling, over friendships, passions, hobbies, languages, to life and and
 finding your own.
 
 Thanks Kameliya for making the bus ride effectively just seven hours!
@@ -40,7 +40,7 @@ In the evening we played pool with American and Swedish guys. Again, in Hostel
 Mostel's lounge. Great place to easily meet people from all over. Pool, chill
 zone, TV, couches, tables and a kitchen.
 
-![](/pictures/Bulgaria/Sofia/100_1076.jpg)
+![](/assets/pictures/Bulgaria/Sofia/100_1076.JPG)
 
 On the second day we went out for some sightseeing. As I were in Sofia before, I
 saw most of the things. Only difference was the weather, about 40°C more. That's
@@ -60,7 +60,7 @@ located 35km
 outside of Sofia. I've never been to a rave in the woods, plus there was Drum
 and Bass. So all things set for another awesome night.
 
-![](/pictures/Bulgaria/Sofia/100_1107.jpg)
+![](/assets/pictures/Bulgaria/Sofia/100_1107.JPG)
 
 Buses to Plana, tha village near the festival, were only running five times a
 day. We planned to take the last one. Going by metro to the bus station was no
@@ -83,7 +83,7 @@ met Russians, Slovaks and even a German couple.
 The dude of the couple happened to be a programmer too. Talking about RoR, Node
 & Co while in the woods in Bulgaria?! Yep, didn't expected that.
 
-![](/pictures/Bulgaria/Sofia/100_1111.jpg)
+![](/assets/pictures/Bulgaria/Sofia/100_1111.JPG)
 
 As the party slowed down we sat by the fire to wait for the sun to rise. Again,
 very light hearted and friendly conversations.
@@ -91,7 +91,7 @@ very light hearted and friendly conversations.
 At 10AM we took the bus back to Sofia. At like 11AM we were back in our room,
 dead. The Sunday only consisted of having dinner, and falling asleep.
 
-Monday was [my birthday](/#/blog/yet-another-special-day). Nothing
+Monday was [my birthday](/yet-another-special-day). Nothing
 crazy happened, went out for dinner and hang around at the hostel lounge.
 
 On Tuesday my stomach felt quite funny. I believe it was a light food poisoning.

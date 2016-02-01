@@ -3,7 +3,7 @@ title: Trip 2014 No5 - Big bold Bucharest
 category: traveling
 ---
 
-I left [Sofia](/#/blog/back-in-sofia) by night-train to Bucharest. I
+I left [Sofia](/back-in-sofia) by night-train to Bucharest. I
 bought the ticket literally last minute and hopped on the train. Eleven hours
 were ahead of me. I didn't even bother to take a sleeping booth because I heard
 they are much worse than having a seat for eleven hours.
@@ -18,7 +18,7 @@ Really, never have I've seen such a big, clean and comfortable hostel before. It
 has two kitchens, a terrace and a balcony. And the cleanest rooms you have ever
 seen. Air conditioning, free breakfast, a friendly staff and whatnot.
 
-![](/pictures/Romania/Bucharest/100_1156.jpg)
+![](/assets/pictures/Romania/Bucharest/100_1156.JPG)
 
 Still tired from the train ride I did walk around nearby the hostel. Quikly I
 was by the Parliament. HUGE! Actually, I never saw such a huge building.
@@ -42,14 +42,14 @@ for too long, since I was pretty eager to see more of Bucharest.
 One of the guys from the hostel suggested the [Herăstrău Park](https://en.wikipedia.org/wiki/Her%C4%83str%C4%83u_Park)
 to me, which sounded like a good thing to do on a 32°C day.
 
-![](/pictures/Romania/Bucharest/100_1179.jpg)
+![](/assets/pictures/Romania/Bucharest/100_1179.JPG)
 
 I walked to the park to see everything in between. For a little break I visited
 the [Antipa Museum](https://en.wikipedia.org/wiki/Antipa_Museum) which was okay.
 Wasn't really into the dead stuffed animals, but the butterfly collection was
 rather nice.
 
-![](/pictures/Romania/Bucharest/100_1198.jpg)
+![](/assets/pictures/Romania/Bucharest/100_1198.JPG)
 
 Finally I arrived the Herăstrău Park. Beautiful! Just like the Parliament, this
 place was huge. One of the best city-parks I've ever been to. Chilled there for
@@ -61,7 +61,7 @@ along instantly. Very down to earth.
 We did go out for dinner and watched the worldcup game that was going on on this
 day. Not really sure who played, since I didn't really care for football.
 
-![](/pictures/Romania/Bucharest/100_1207.jpg)
+![](/assets/pictures/Romania/Bucharest/100_1207.JPG)
 
 Later that evening I was searching for a party in Bucharest. And surely there
 was a good one: [Dub FX](http://dubfx.net/) played at the [Barletto Club & Pool](http://www.feeder.ro/2014/07/04/dub-fx-live-barletto/).
@@ -86,7 +86,7 @@ bar. Afterwards we went to the
 [Kulturhaus](https://www.facebook.com/kulturhausro) club. It was a okay party.
 Crowded and lots of young people.
 
-![](/pictures/Romania/Bucharest/100_1224.jpg)
+![](/assets/pictures/Romania/Bucharest/100_1224.JPG)
 
 The next days were like the same as Saturday. Went to the park, chilled out,
 worked out. There was also some music, which was pretty nice.
@@ -95,10 +95,10 @@ In the evenings I was doing some work. No, seriosly!
 
 On Wednesday I started to record the pitch video for Hostel Hop. Turned out to
 be pretty funny, as I usually don't record my self. Some selfies here and there,
-but not to that extend. [Here are some scraps from that day](/#/blog/hostel-hop-pitch-scraps-1).
+but not to that extend. [Here are some scraps from that day](/hostel-hop-pitch-scraps-1).
 In the evening I was making the scraps video as well as some other work.
 
-Thursday was take two of the pitch video. Also for the [scraps video](/#/blog/hostel-hop-pitch-scraps-2).
+Thursday was take two of the pitch video. Also for the [scraps video](/hostel-hop-pitch-scraps-2).
 I wanted to record a video
 on a busy intersection, when one guy behind a gate approached me, saying it is
 not allowed to stand there. When asked, he told me that I was standing in front
@@ -123,7 +123,7 @@ there my plane to Belgrade.
 
 Bye Bucharest. You are officially in the top 5 now. I'll be back!
 
-![](/pictures/Romania/Bucharest/100_1209.jpg)
+![](/assets/pictures/Romania/Bucharest/100_1209.JPG)
 
 On a side note: People in Bucharest seems to really like to do the wirework
 outside of the buildings. The picture above, for example, is a entrance a metro

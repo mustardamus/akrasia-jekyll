@@ -70,7 +70,7 @@ hostel you met the other user.
 ### User Profile
 
 This is what other people see when visiting your profile. Your basic information
-like ineterests. It displays your friends and also in which hostels you were
+like interests. It displays your friends and also in which hostels you were
 before.
 
 
@@ -79,7 +79,7 @@ before.
 This is the what people see when they are visiting a hostel page. All the
 visitors that have ever checked-in to the hostel.
 The location as well as the staff (user with administrative rights) working in
-the hosel.
+the hostel.
 
 A logged in user has the ability to check in to the hostel. A user can only be
 checked in one hostel at a time.

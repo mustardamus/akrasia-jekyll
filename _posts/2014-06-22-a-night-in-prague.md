@@ -4,13 +4,13 @@ category: traveling
 ---
 
 After five months in Leipzig I'm finally back on the road. I documented my trip
-last year [only by pictures](/#/on-the-road). While it's true
+last year [only by pictures](/pictures). While it's true
 that they are saying more than thousand words, this time I want to share a bit
 more. What I do, how I travel, how much I spent and who I met. Lets get started!
 
 ### Leipzig ⇢ Dresden ⇢ _Prague_
 
-Ah, [Prague](/#/on-the-road/Czech-Republic/Prague). My last
+Ah, [Prague](/pictures#Prague). My last
 trip also started there and I spent one whole month. It must be my 8th time in
 Prague. It's fair to say that I know the city. Not only is it nice for touristy
 stuff, but I really like the nightlife and people there.
@@ -18,7 +18,7 @@ stuff, but I really like the nightlife and people there.
 This time I only spent one night to go to a [Drum and Bass party](http://www.crossclub.cz/cs/program/3224-imperialistic-night-cechy-a-morava-united-prihlaseni-na-udalost-na-fb-jako-zucastnim-se-zdarma-free/)
 in the infamous [Cross Club](http://www.crossclub.cz/en/contact/).
 
-![](/pictures/Czech-Republic/Prague/100_0991.jpg)
+![](/assets/pictures/Czech-Republic/Prague/100_0991.JPG)
 
 The DnB party was pretty good, I danced a lot and so do my legs feel today. A
 must after a bomb party.

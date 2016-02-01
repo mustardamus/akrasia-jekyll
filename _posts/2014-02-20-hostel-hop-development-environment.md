@@ -42,7 +42,8 @@ Let's see how to build the different parts of the app.
 In this snippet Browserify compiles the CoffeeScript and create a JavaScript
 bundle of the app.
 
-<pre><code data-language="javascript">var coffee = require('gulp-coffee');
+{% highlight javascript %}
+var coffee = require('gulp-coffee');
 var browserify = require('gulp-browserify');
 
 gulp.task('coffee', function() {
@@ -54,7 +55,8 @@ gulp.task('coffee', function() {
     }))
     .pipe(concat('main.js'))
     .pipe(gulp.dest('./public/scripts/'));
-});</code></pre>
+});
+{% endhighlight %}
 
 #### JavaScript vendors
 
@@ -66,15 +68,18 @@ replace it with the actual file content.
 
 The *vendor.js* looks like this:
 
-<pre><code data-language="javascript">//= require ../bower_components/jquery/dist/jquery.js
+{% highlight javascript %}
+//= require ../bower_components/jquery/dist/jquery.js
 //= require ../bower_components/underscore/underscore.js
 //= require ../bower_components/backbone/backbone.js
 //= require ../bower_components/mustache/mustache.js
-//= require ../bower_components/modernizr/modernizr.js</code></pre>
+//= require ../bower_components/modernizr/modernizr.js
+{% endhighlight %}
 
 And this task compiles and minifies it all:
 
-<pre><code data-language="javascript">var include = require('gulp-include');
+{% highlight javascript %}
+var include = require('gulp-include');
 var uglify = require('gulp-uglify');
 
 gulp.task('vendor-js', function() {
@@ -83,7 +88,8 @@ gulp.task('vendor-js', function() {
     .pipe(include())
     .pipe(uglify())
     .pipe(gulp.dest('./public/scripts/'));
-});</code></pre>
+});
+{% endhighlight %}
 
 #### Stylus
 
@@ -92,14 +98,16 @@ just as the javascripts. Stylus has a
 [@import](http://learnboost.github.io/stylus/docs/import.html) function to
 concat files.
 
-<pre><code data-language="javascript">var stylus = require('gulp-stylus');
+{% highlight javascript %}
+var stylus = require('gulp-stylus');
 
 gulp.task('stylus', function() {
   gulp
     .src('./app/styles/main.styl')
     .pipe(stylus())
     .pipe(gulp.dest('./public/styles/'));
-});</code></pre>
+});
+{% endhighlight %}
 
 #### Stylehsheet vendors
 
@@ -108,19 +116,24 @@ Foundation, in one file. Minified.
 
 The *vendor.css* looks like this:
 
-<pre><code data-language="javascript">//= require ../bower_components/foundation/css/normalize.css
+{% highlight javascript %}
+//= require ../bower_components/foundation/css/normalize.css
 //= require ../bower_components/foundation/css/foundation.css
-//= require ../bower_components/font-awesome/css/font-awesome.css</code></pre>
+//= require ../bower_components/font-awesome/css/font-awesome.css
+{% endhighlight %}
 
 Note that this is not valid CSS. In Sprockets, you would have instead written:
 
-<pre><code data-language="css">/*= require '...' */</code></pre>
+{% highlight css %}
+/*= require '...' */
+{% endhighlight %}
 
 I wrote it the JavaScript way because gulp-include does not officially support
 CSS. Anyway, it is exactly working the same as in JS. And at the end, a valid
 vendor stylesheet is coming out with this task:
 
-<pre><code data-language="javascript">var include = require('gulp-include');
+{% highlight javascript %}
+var include = require('gulp-include');
 var csso = require('gulp-csso');
 
 gulp.task('vendor-css', function() {
@@ -129,14 +142,16 @@ gulp.task('vendor-css', function() {
     .pipe(include())
     .pipe(csso())
     .pipe(gulp.dest('./public/styles/'));
-});</code></pre>
+});
+{% endhighlight %}
 
 #### Copy the HTML files and fonts
 
 These assets do not need any processing, so we just copy them to the destination
 path.
 
-<pre><code data-language="javascript">gulp.task('copy-html', function() {
+{% highlight javascript %}
+gulp.task('copy-html', function() {
   gulp
     .src('./app/*.html')
     .pipe(gulp.dest('./public/'));
@@ -146,29 +161,34 @@ gulp.task('copy-fonts', function() {
   gulp
     .src('./app/bower_components/font-awesome/fonts/*')
     .pipe(gulp.dest('./public/fonts/'));
-});</code></pre>
+});
+{% endhighlight %}
 
 #### The complete build task
 
 Putting everything above together, and we can build the application to its
 destination folder:
 
-<pre><code data-language="javascript">gulp.task('build',
+{% highlight javascript %}
+gulp.task('build',
   ['copy-html', 'stylus', 'coffee', 'vendor-js', 'vendor-css', 'copy-fonts']
-);</code></pre>
+);
+{% endhighlight %}
 
 #### Watching for changes
 
 Now, I don't want to run the *build* task over and over again, whenever I change
 files. Luckily Gulp.js has a *watch* function built in:
 
-<pre><code data-language="javascript">gulp.task('watch', function() {
+{% highlight javascript %}
+gulp.task('watch', function() {
   gulp.watch('./app/*.html', ['copy-html']);
   gulp.watch('./app/styles/**/*.styl', ['stylus']);
   gulp.watch('./app/styles/vendor.css', ['vendor-css']);
   gulp.watch('./app/scripts/**/*.coffee', ['coffee']);
   gulp.watch('./app/scripts/vendor.js', ['vendor-js']);
-});</code></pre>
+});
+{% endhighlight %}
 
 #### Serving the build
 
@@ -176,7 +196,8 @@ The development environment is almost complete. At last we need a webserver so
 we can develop on *localhost*.
 [gulp-connect](https://www.npmjs.org/package/gulp-connect/) does exatcly that:
 
-<pre><code data-language="javascript">var connect = require('gulp-connect');
+{% highlight javascript %}
+var connect = require('gulp-connect');
 
 gulp.task('server', ['build', 'watch'], connect.server({
   root: ['public'],
@@ -184,19 +205,22 @@ gulp.task('server', ['build', 'watch'], connect.server({
   livereload: {
     port: 31629
   }
-}));</code></pre>
+}));
+{% endhighlight %}
 
 Notice that gulp-connect has
 [livereload](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei)
 built right in. We only have to make it aware that a change has happened and
 that the browser should reload (example on the *copy-html* task):
 
-<pre><code data-language="javascript">gulp.task('copy-html', function() {
+{% highlight javascript %}
+gulp.task('copy-html', function() {
   gulp
     .src('./app/*.html')
     .pipe(gulp.dest('./public/'))
     .pipe(connect.reload());
-});</code></pre>
+});
+{% endhighlight %}
 
 ### (Gulp) Conclusion
 
@@ -209,7 +233,8 @@ tests). I officially welcome you to my tool-belt.
 
 ### The complete gulpfile.js
 
-<pre><code data-language="javascript">var gulp       = require('gulp');
+{% highlight javascript %}
+var gulp       = require('gulp');
 var stylus     = require('gulp-stylus');
 var connect    = require('gulp-connect');
 var coffee     = require('gulp-coffee');
@@ -290,4 +315,5 @@ gulp.task('server', ['build', 'watch'], connect.server({
   }
 }));
 
-gulp.task('default', ['server']);</code></pre>
+gulp.task('default', ['server']);
+{% endhighlight %}
