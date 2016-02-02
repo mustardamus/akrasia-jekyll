@@ -131,3 +131,71 @@ h1, h2, h3, h4, h5, h6 {
 @import 'pictures';
 @import 'blog';
 @import 'post';
+
+#about {
+  h1 {
+    margin: 20px 0 20px 0;
+    padding-bottom: 20px;
+  }
+
+  .skills {
+    h2 {
+      margin: 0 0 12px 0;
+      padding-left: 40px;
+      min-height: 32px;
+
+      a {
+        color: $dark1;
+
+        &:hover {
+          text-decoration: none;
+          border-bottom: 2px solid $color2;
+        }
+      }
+    }
+
+    p {
+      font-size: 1em;
+    }
+
+    .jquery h2 {
+      background: url('../images/icon_jquery.jpg') top left no-repeat;
+    }
+
+    .backbone h2 {
+      background: url('../images/icon_backbone.jpg') top left no-repeat;
+    }
+
+    .vue h2 {
+      background: url('../images/icon_vue.jpg') top left no-repeat;
+    }
+
+    .sass h2 {
+      background: url('../images/icon_sass.jpg') top left no-repeat;
+    }
+
+    .gulp h2 {
+      background: url('../images/icon_gulp.jpg') top left no-repeat;
+    }
+
+    .bootstrap h2 {
+      background: url('../images/icon_bootstrap.jpg') top left no-repeat;
+    }
+
+    .browserify h2 {
+      background: url('../images/icon_browserify.jpg') top left no-repeat;
+    }
+
+    .html5 h2 {
+      background: url('../images/icon_html5.jpg') top left no-repeat;
+    }
+
+    .coffeescript h2 {
+      background: url('../images/icon_coffeescript.jpg') top left no-repeat;
+    }
+
+    .etc h2 {
+      background: url('../images/icon_etc.jpg') top left no-repeat;
+    }
+  }
+}
