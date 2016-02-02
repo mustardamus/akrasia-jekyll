@@ -162,6 +162,17 @@ h1, h2, h3, h4, h5, h6 {
 
     p {
       font-size: 1em;
+      padding: 0 10px 15px 0;
+
+      a {
+        color: $dark1;
+        border-bottom: 1px solid $color2;
+
+        &:hover {
+          text-decoration: none;
+          color: $color2;
+        }
+      }
     }
 
     .jquery h2 {
