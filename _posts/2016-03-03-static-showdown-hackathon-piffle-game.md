@@ -24,6 +24,9 @@ to build the best hackathon entry yet, the most finished an polished.
 And it paid! After my 3rd place at Node Knockout in 2012 I set a new record for
 myself and scored 2nd place at Static Showdown!
 
+**Update:** The organizers did let me know that I also had the best solo score.
+Pretty gnarly! There is the first place :).
+
 ![](/assets/images/piffle.jpg)
 
 Now I want to share the code of the game with you.
