@@ -43,6 +43,8 @@ Dir.glob "#{in_dir}/**" do |country_path|
 
         obj[:pictures] << filename
         puts "#{obj[:country]} - #{obj[:city]} - #{filename}"
+      else
+        obj[:pictures] << filename
       end
     end
 
